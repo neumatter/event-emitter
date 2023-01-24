@@ -1,0 +1,34 @@
+{
+  "name": "@neumatter/event-emitter",
+  "version": "1.0.0",
+  "description": "An EventEmitter for client side and server side support.",
+  "type": "module",
+  "author": "Cal Young",
+  "keywords": [
+    "events",
+    "event-emitter",
+    "eventemitter",
+    "emitter",
+    "event-target",
+    "nodejs",
+    "javascript",
+    "module",
+    "node",
+    "es6"
+  ],
+  "main": "./index.js",
+  "types": "./types/index.d.ts",
+  "devDependencies": {},
+  "dependencies": {},
+  "babel": {
+    "targets": {
+      "node": "16"
+    }
+  },
+  "standard": {
+    "parser": "@babel/eslint-parser",
+    "ignore": [
+      "/types"
+    ]
+  }
+}
